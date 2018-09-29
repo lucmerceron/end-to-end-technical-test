@@ -1,0 +1,44 @@
+.content-list{
+    flex: 1;
+}
+.list-costs{
+    padding: 0.8rem 1rem 0.8rem 1rem;
+    margin: 0;
+    /* border: 2px solid red; */
+    border-top: 1px solid lightgrey;
+    display:flex;
+    flex-direction: row;
+}
+
+.cost-title{
+    color: #297ab7;
+    font-weight: 500;
+    flex: 3;
+    text-align: left;
+    padding: 0 0.5rem 0 0.5rem;
+    /* border: 1px solid red; */
+}
+
+.cost-paidfor{
+    color: #302f2f;
+    flex: 2;
+    text-align: left;
+    padding: 0 0.5rem 0 0.5rem;
+    font-size: 0.8rem;
+    /* border: 1px solid red; */
+}
+
+.cost-amount{
+    flex: 2;
+    text-align: right;
+    color: #297ab7;
+    font-weight: 500;
+    padding: 0 0.5rem 0 0.5rem;
+    /* border: 1px solid red; */
+}
+
+.ul-costs{
+    padding : 0;
+    margin:0;
+    list-style: none;
+}

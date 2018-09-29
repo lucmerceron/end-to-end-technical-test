@@ -1,0 +1,13 @@
+.total{
+    background-color: #16212c;
+    color: white;
+    text-align: right;
+    padding : 1rem;
+    font-size: 0.9rem;
+}
+
+.total .label{
+    color:lightgrey;
+    margin-bottom: 0.4rem;
+    font-size: 0.7rem;
+}

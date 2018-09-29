@@ -1,0 +1,60 @@
+.filter-title {
+    font-size: 1.2rem;
+    color: white;
+    margin : 0 0 0.8rem 0;
+    font-weight: 600;
+  }
+
+.filter{
+    background-color: #297ab7;
+    padding: 1.5rem 1rem 1rem 1rem;
+    color: white;
+    text-align: left;
+}
+
+.filter-form{
+    display: flex;
+    flex-direction: row;
+    height: 1.8rem;
+    /* align-items: center; */
+}
+
+.filter-select{
+    width: 0;
+    flex: 5;
+    color : grey;
+    background-color: white;
+    margin:0;
+    padding:0;
+}
+
+.filter-input{   
+    width: 0;
+    flex:5;
+    margin-left: 1rem;
+    color : grey;
+    padding-left : 0.2rem;
+    border-width : 1px 0 1px 1px;
+    border-color:  white;
+    border-style:solid;
+}
+
+.filter-label{   
+    width: 0;
+    flex:2;
+    line-height: 2rem;
+}
+
+.filter-button{
+    width: 0;
+    flex: 1 1;
+    background-color: #297ab7;
+    color: white;
+    border-radius: 0 5px 5px 0;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px 1px 1px 0;
+    padding: 0.2rem 0 0.2rem 0;
+    font-size: 1.3rem;
+    line-height: 1.3;
+}
